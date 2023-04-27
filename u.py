@@ -5,7 +5,3 @@ print (etiquetas)
 print ( etiquetas[2])
 
 
-
-corr=salaries.set.index ("experience_level") 
-sm.graphics.plot_corr(corr , xnames=etiquetas(corr.colums))
-plt.show()
