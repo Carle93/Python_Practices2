@@ -12,8 +12,4 @@ mostrar_mensaje ()
 def mostrar_suma ( x, y) :
     print (x + y)
 mostrar_suma (25,35)
-def mostrar_suma ( x, y) :
-    return x + y
-resultado = mostrar_suma (4,5)
-print (resultado)
 
