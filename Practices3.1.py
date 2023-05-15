@@ -12,5 +12,11 @@ Verbo1 = input("Verbo:  ")
 Verbo2 = input("Verbo:  ")
 Sustantivo_plural = input ("sustantivo (plural):  ")
 
-Mad_lab = f" Si me siento {Adj} , puede que tenga que {Verbo1}, para lograr completar la actividades que tengo que {Verbo2} para no procratisnar."
+Mad_lab = f" Si me siento {Adj} , puede que tenga que {Verbo1}, para lograr completar la actividades que tengo que {Verbo2} para no procratisnar {Sustantivo_plural}."
 print (Mad_lab)
+
+name= input("waht is your name? ")
+
+# evitar errorres en las entradas de los usuarios 
+name= name.strip()
+print(f"hello, {name}")
